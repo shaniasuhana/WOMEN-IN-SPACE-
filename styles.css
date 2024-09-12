@@ -1,0 +1,182 @@
+/* General Body Styles */
+body {
+    background: #ff0000;
+    color: rgba(255, 255, 255, 0.992);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    background-image: url(istockphoto-182792016-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+   
+}
+
+/* Topic Styles */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Writing Feature Section Styles */
+.features {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+
+.features figure {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.features figure img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* Image Container */
+.imageContainer {
+    width: 30%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+
+
+
+/* Headline Styles */
+.whatisaplanet, .womeninspace {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Text Box */
+.text-box {
+    width: 90%;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Comment Section */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+#commentForm {
+    margin-bottom: 10px;
+}
+
+#commentText {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#comments {
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.comment {
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+}
+
+/* Image Styling */
+.clickable-image {
+    width: 300px;
+    height: auto;
+    border: 2px solid #333;
+    transition: transform 0.3s;
+}
+
+.clickable-image:hover {
+    transform: scale(1.05);
+}
+
+/* Styled Link */
+.styled-link img {
+    border: 2px solid #000;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.styled-link img:hover {
+    transform: scale(1.1);
+}
+
+/* NASA News Sizes */
+.square {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+footer {
+    background-color: #000;
+}
+#planetSearchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#planetList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.planet-item {
+    flex: 1 1 calc(25% - 20px);
+    text-align: center;
+}
+
+.planet-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.planet-item img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,33 @@
+/* General Body Styles */
+body {
+    background: #000000;
+    color: rgba(255, 255, 255, 0.992);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(nasa-earth-views-01-cr-courtesy.jpg.webp);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+/*footer styles*/
+footer {
+   background-color: rgb(255, 255, 255)
+}
+header a {
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+   
+}
+
+
+    
+
+
+
+
